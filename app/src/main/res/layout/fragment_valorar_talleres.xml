@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".valorarTalleres">
+
+    <TextView
+        android:id="@+id/tituloValoracion"
+        android:layout_width="94dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="124dp"
+        android:layout_marginEnd="272dp"
+        android:text="Valoracion"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="86dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="104dp"
+        android:layout_marginEnd="280dp"
+        android:text="comentarios"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tituloValoracion" />
+
+    <EditText
+        android:id="@+id/comentarios"
+        android:layout_width="221dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="83dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="107dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <EditText
+        android:id="@+id/valoracion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="108dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tituloValoracion" />
+
+    <Button
+        android:id="@+id/subir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="139dp"
+        android:layout_marginTop="183dp"
+        android:layout_marginEnd="184dp"
+        android:layout_marginBottom="107dp"
+        android:text="Subir"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/comentarios" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "293132451518",
+    "firebase_url": "https://examenrecuperacion-71823.firebaseio.com",
+    "project_id": "examenrecuperacion-71823",
+    "storage_bucket": "examenrecuperacion-71823.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:293132451518:android:c7df93cc72aea66a",
+        "android_client_info": {
+          "package_name": "com.example.examenrecuperacion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "293132451518-p4e52t45h190o8gqe71flvedf5u15b6g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.examenrecuperacion",
+            "certificate_hash": "3d7c1d1cb654c40cc947ee31e08d493e6d9138eb"
+          }
+        },
+        {
+          "client_id": "293132451518-7brh8q8fg4lftuf9eot0ta34istc4iiq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCg4Zlpy0nSAFYasoLPRGU2u0l7Fyk1E68"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "293132451518-7brh8q8fg4lftuf9eot0ta34istc4iiq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
